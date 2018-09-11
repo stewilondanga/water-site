@@ -6,6 +6,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  margin: 30px 0;
+  background: #20A4F3;
+  position: relative;
+  background-image: url('https://s3.amazonaws.com/graphics-jaymie/sea-creatures.png');
+  background-size: cover;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -29,15 +39,6 @@ html {
   height: 1.5em;
 }
 
-body {
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 300;
-	margin: 30px 0;
-	background: #20A4F3;
-	position: relative;
-	background-image: url('https://s3.amazonaws.com/graphics-jaymie/sea-creatures.png');
-	background-size: cover;
-}
 a {
 	text-decoration: none;
 	color: grey;
