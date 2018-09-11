@@ -1,0 +1,219 @@
+/*body {
+  text-align: center;
+  font-family: courier;
+  background-image: url("../assets/image.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.my_social {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.my_social a {
+  display: inline-block;
+  height: 2.5em;
+}
+
+.my_social a img {
+  height: 1.5em;
+}
+
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	margin: 30px 0;
+	background: #20A4F3;
+	position: relative;
+	background-image: url('https://s3.amazonaws.com/graphics-jaymie/sea-creatures.png');
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+p {
+	font-size: 14px;
+	color: grey;
+	line-height: 1.6em;
+}
+strong {
+	font-weight: bold;
+}
+div.info-container {
+	max-width: 350px;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0 auto 30px auto;
+	background: rgba(255,255,255,0.9);
+}
+p.info {
+	font-size: 12px;
+}
+p.symbol {
+	margin: 0;
+	font-family: 'Abril Fatface', serif;
+	font-size: 40px;
+	color: #20A4F3;
+	text-align: center;
+}
+p.element-name {
+	display: inline;
+	margin: 0 70px;
+}
+i.fas.fa-times {
+	color: #20A4F3;
+}
+p.footnote {
+	font-size: 10px;
+}
+div.card {
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.9);
+	height: 475px;
+	border-radius: 10px;
+	margin: 0 auto;
+	max-width: 350px;
+	position: relative;
+/* 	box-shadow: 0px 0px 20px 2px #7FB7BE; */
+}
+/*div.element {
+	text-align: center;
+	background: #e1e2de;
+	color: grey;
+	padding: 15px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-radius: 0 0px 10px 10px;
+	width: 100%;
+}
+i.fas.fa-arrow-left,
+i.fas.fa-arrow-right {
+	display: inline-block;
+}
+/* Tooltip Styles */
+/* Add this attribute to the element that needs a tooltip */
+/*[data-tooltip] {
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+/* Hide the tooltip content by default */
+/*[data-tooltip]:before,
+[data-tooltip]:after {
+	visibility: hidden;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	pointer-events: none;
+}
+/* Position tooltip above the element */
+/*[data-tooltip]:before {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-bottom: 5px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 150px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #000;
+	background-color: #D65780;
+	color: #fff;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+}
+/* Triangle hack to make tooltip look like a speech bubble */
+/*[data-tooltip]:after {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #000;
+	border-top: 5px solid #D65780;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}
+/* Show tooltip content on hover */
+/*[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+/*
+.containers {
+  width: 520px;
+  margin: 20px auto;
+}
+
+#contact h1 {
+  font-family: helvetica;
+  font-weight: normal;
+  text-align: center;
+  color: #c0c0c0;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 375px;
+  margin: 0 auto;
+  border-bottom: 3px solid #f3f3f3;
+}
+
+.cal {
+  display: inline-block;
+  background: #ffe;
+  color: #555;
+  font-size: 6px;
+  text-align: center;
+  transform: scale(1);
+  transition: all 0.2s linear;
+}
+
+.cal:hover {
+  transform: scale(2.5);
+  transition: all 0.4s linear;
+}
+
+.cal caption {
+  background: #d44;
+  color: #eee;
+  font-size: 15px;
+}
+
+.cal th {
+  color: #aaa;
+  line-height: 200%;
+}
+
+.cal th:first-child {
+  color: #f00;
+}
+
+.cal th:last-child {
+  color: #04d;
+}
+
+.cal td {
+  padding: 0 2px;
+  line-height: 100%;
+}
