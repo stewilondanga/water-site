@@ -36,12 +36,13 @@ a {
   color: grey;
 }
 
-/*p {
-	font-size: 14px;
-	color: grey;
-	line-height: 1.6em;
+p {
+  font-size: 14px;
+  color: grey;
+  line-height: 1.6em;
 }
-strong {
+
+/*strong {
 	font-weight: bold;
 }
 div.info-container {
