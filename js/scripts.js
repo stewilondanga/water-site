@@ -7,10 +7,10 @@ var navigate = (function() {
   });
 })();
 
-/*const times = document.getElementById('times');
+const times = document.getElementById('times');
 const iconContainer = document.getElementById('info-container');
 // let infoP = document.getElementById('info');
-times.onclick = function() {
+/*times.onclick = function() {
 	click();
 };
 function click() {
