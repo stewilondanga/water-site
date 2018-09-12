@@ -221,11 +221,11 @@ i.fas.fa-arrow-left, i.fas.fa-arrow-right {
   color: #f00;
 }
 
-/*.cal th:last-child {
+.cal th:last-child {
   color: #04d;
 }
 
-.cal td {
+/*.cal td {
   padding: 0 2px;
   line-height: 100%;
 }
