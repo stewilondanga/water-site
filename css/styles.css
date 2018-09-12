@@ -167,13 +167,13 @@ i.fas.fa-arrow-left, i.fas.fa-arrow-right {
 
 /* Show tooltip content on hover */
 
-/*[data-tooltip]:hover:before,
-[data-tooltip]:hover:after {
-	visibility: visible;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
-	opacity: 1;
+[data-tooltip]:hover:before, [data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
+
 /*
 .containers {
   width: 520px;
