@@ -13,6 +13,7 @@ const iconContainer = document.getElementById('info-container');
 times.onclick = function() {
   click();
 };
-/*function click() {
-	iconContainer.style.display = 'none';
+
+function click() {
+  iconContainer.style.display = 'none';
 }
