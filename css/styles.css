@@ -75,10 +75,11 @@ i.fas.fa-times {
   color: #20A4F3;
 }
 
-/*p.footnote {
-	font-size: 10px;
+p.footnote {
+  font-size: 10px;
 }
-div.card {
+
+/*div.card {
 	padding: 20px;
 	background: rgba(255, 255, 255, 0.9);
 	height: 475px;
