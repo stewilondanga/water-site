@@ -71,10 +71,11 @@ p.element-name {
   margin: 0 70px;
 }
 
-/*i.fas.fa-times {
-	color: #20A4F3;
+i.fas.fa-times {
+  color: #20A4F3;
 }
-p.footnote {
+
+/*p.footnote {
 	font-size: 10px;
 }
 div.card {
