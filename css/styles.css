@@ -42,10 +42,11 @@ p {
   line-height: 1.6em;
 }
 
-/*strong {
-	font-weight: bold;
+strong {
+  font-weight: bold;
 }
-div.info-container {
+
+/*div.info-container {
 	max-width: 350px;
 	border-radius: 10px;
 	padding: 20px;
