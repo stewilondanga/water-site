@@ -58,14 +58,15 @@ p.info {
   font-size: 12px;
 }
 
-/*p.symbol {
-	margin: 0;
-	font-family: 'Abril Fatface', serif;
-	font-size: 40px;
-	color: #20A4F3;
-	text-align: center;
+p.symbol {
+  margin: 0;
+  font-family: 'Abril Fatface', serif;
+  font-size: 40px;
+  color: #20A4F3;
+  text-align: center;
 }
-p.element-name {
+
+/*p.element-name {
 	display: inline;
 	margin: 0 70px;
 }
