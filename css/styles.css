@@ -66,11 +66,12 @@ p.symbol {
   text-align: center;
 }
 
-/*p.element-name {
-	display: inline;
-	margin: 0 70px;
+p.element-name {
+  display: inline;
+  margin: 0 70px;
 }
-i.fas.fa-times {
+
+/*i.fas.fa-times {
 	color: #20A4F3;
 }
 p.footnote {
