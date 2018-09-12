@@ -217,11 +217,11 @@ i.fas.fa-arrow-left, i.fas.fa-arrow-right {
   line-height: 200%;
 }
 
-/*.cal th:first-child {
+.cal th:first-child {
   color: #f00;
 }
 
-.cal th:last-child {
+/*.cal th:last-child {
   color: #04d;
 }
 
