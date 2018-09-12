@@ -102,10 +102,10 @@ div.element {
   width: 100%;
 }
 
-/*i.fas.fa-arrow-left,
-i.fas.fa-arrow-right {
-	display: inline-block;
+i.fas.fa-arrow-left, i.fas.fa-arrow-right {
+  display: inline-block;
 }
+
 /* Tooltip Styles */
 
 /* Add this attribute to the element that needs a tooltip */
